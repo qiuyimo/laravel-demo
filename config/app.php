@@ -211,4 +211,11 @@ return [
 
     ],
 
+    /**
+     *Develop Plugin
+     */
+    Barryvdh\Debugbar\ServiceProvider::class,
+    Mpociot\LaravelTestFactoryHelper\TestFactoryHelperServiceProvider::class,
+    Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
 ];
